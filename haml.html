@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let q = prompt("Что вы хотите зделать:1)Перевести байты в килобайты 2)Перевести килобайты в байты")
+
+        if (q == '1') {
+            let b = +prompt("Введите байты:")
+            if (b / 1024) {
+                document.write(b / 1024)
+                if (q == null) {
+                    document.write('Отмена')
+                }
+            }
+        }
+        else
+            if (q == 2) {
+                let v = +prompt('Введите килобайты')
+                if (1024 * v) {
+                    document.write(1034 * v)
+                }
+            }
+
+
+    </script>
+</body>
+
+</html>
